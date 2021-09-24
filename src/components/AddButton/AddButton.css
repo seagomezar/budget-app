@@ -1,0 +1,15 @@
+.AddButton {
+  color: white;
+  width: 60px;
+  height: 60px;
+  background-color: #CD4FF7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: 1px solid #CD4FF7;
+}

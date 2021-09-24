@@ -1,0 +1,44 @@
+.Card {
+  z-index: 1000;
+  position: relative;
+  background-color: rgba(256, 256, 256, 0.3);
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 5% 5%;
+  padding: 5% 5%;
+  width: 80%;
+}
+
+.Card::before {
+  z-index: -100;
+  margin-top: 30px;
+  content: " ";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: linear-gradient(0.25turn, #6953F7, #CD4FF7);
+  -webkit-transform: rotate(-8deg)  translateX(23px) translateY(-31px);
+  -moz-transform: rotate(-8deg)  translateX(23px) translateY(-31px);
+  -o-transform: rotate(-8deg)  translateX(23px) translateY(-31px);
+  -ms-transform: rotate(-8deg)  translateX(23px) translateY(-31px);
+  transform: rotate(-5deg)  translateX(10px) translateY(-17px) ;
+}
+
+.Card .balance {
+
+}
+
+.Card .summary {
+  z-index: 10;
+  display: flex;
+  justify-content: space-evenly;
+}

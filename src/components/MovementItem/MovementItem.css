@@ -1,0 +1,25 @@
+.MovementItem {
+  border-top: 1px solid grey;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MovementItem img {
+  height: 50px;
+  width: 50px;
+}
+
+.MovementItem button {
+  background: transparent;
+  height: 10px;
+  border: 0;
+  color: white;
+  text-decoration: underline;
+}

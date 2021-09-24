@@ -1,0 +1,17 @@
+.Header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5% 5%;
+}
+
+.Header h1 {
+  color: white;
+  margin: 0;
+}
+
+.Header img {
+  height: 60px;
+  width: 60px;
+}

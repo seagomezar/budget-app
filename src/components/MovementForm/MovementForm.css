@@ -1,0 +1,57 @@
+.MovementForm {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  border-top: 1px solid grey;
+  padding: 5% 5%;
+  position: relative;
+}
+
+.MovementForm form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 190px;
+}
+
+.MovementForm h2 {
+  color: white;
+  margin: 0;
+}
+
+.MovementForm .closeForm {
+  color: #CD4FF7;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border: 1px solid #CD4FF7;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.MovementForm input, select{
+  height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.MovementForm .submit{
+  color: white;
+  width: 80%;
+  height: 40px;
+  background-color: #CD4FF7;
+  border-radius: 10px;
+  display: flex;
+  font-size: 20;
+  font-weight: bold;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #CD4FF7;
+}
