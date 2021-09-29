@@ -15,7 +15,7 @@ export default function Provider(props) {
     if (localStorageState) {
       setState({...state, movements: localStorageStateParsed.movements})
     }
-  }, [])
+  }, [state])
 
   return <AppContext.Provider value={{state, setState}}>
     {props.children}

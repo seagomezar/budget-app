@@ -4,7 +4,7 @@ import "./Card.css";
 
 export default function Card() {
 
-  const {state, setState} = useContext(AppContext);
+  const {state} = useContext(AppContext);
   const [balance, setBalance] = useState(0)
   const [spend, setSpend] = useState(0)
   const [profit, setProfit] = useState(0)
