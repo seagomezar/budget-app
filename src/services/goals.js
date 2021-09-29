@@ -36,3 +36,8 @@ export function deleteGoal(id) {
   return listOfGoals;
 }
 
+export function deleteGoal(id) {
+  listOfGoals = listOfGoals.filter(e=>e.id !== id);
+  return listOfGoals;
+}
+
