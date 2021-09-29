@@ -1,0 +1,123 @@
+.button-clean {
+  width: 10%;
+  height: 2.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0.5em;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  background-color: #0080ff;
+  border-style: none;
+  border-radius: 2em;
+  box-shadow: 0px 10px 20px 0px rgb(78, 132, 231);
+}
+
+.button-clean:hover {
+  border-radius: 2em;
+  transform: scale(0.9);
+  box-shadow: none;
+  box-shadow: 0px 0px 30px 0px rgba(250, 251, 252, 0.158);
+}
+
+.button-clean:active {
+  opacity: 5;
+  color: rgb(78, 132, 231);
+  background-color: white;
+}
+
+.button-clean-text {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  padding-right: 2px;
+}
+
+.button-clean-icon {
+  padding-top: 2px;
+}
+
+input {
+  -webkit-appearance: none;
+  padding: 7px 20px 7px 20px;
+  width: 14.5%;
+  border: 1px solid #e8eaed;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 1px 3px -2px #9098a9;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  transition: all 150ms ease;
+  border-radius: 2em;
+}
+
+select:focus {
+  outline: none;
+}
+
+#Place * {
+  border-radius: 2em;
+  background-color: white;
+  outline: none;
+}
+
+.Country {
+  -webkit-appearance: none;
+  padding: 10px 20px 10px 20px;
+  width: 14.5%;
+  border: 1px solid #e8eaed;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px -2px #9098a9;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  transition: all 150ms ease;
+  border-radius: 2em;
+  background: white
+    url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='18' height='18' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='Black'/></g></svg>")
+    no-repeat;
+  background-position: right 10px top 50%;
+}
+
+.Price {
+  -webkit-appearance: none;
+  padding: 10px 20px 10px 20px;
+  width: 14.5%;
+  border: 1px solid #e8eaed;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 1px 3px -2px #9098a9;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  transition: all 150ms ease;
+  border-radius: 2em;
+  background: white
+    url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='18' height='18' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='Black'/></g></svg>")
+    no-repeat;
+  background-position: right 10px top 50%;
+}
+
+.Rooms {
+  -webkit-appearance: none;
+  padding: 10px 20px 10px 20px;
+  width: 14.5%;
+  border: 1px solid #e8eaed;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 1px 3px -2px #9098a9;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  transition: all 150ms ease;
+  border-radius: 2em;
+  background: white
+    url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='18' height='18' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='Black'/></g></svg>")
+    no-repeat;
+  background-position: right 10px top 50%;
+}
