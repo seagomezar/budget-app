@@ -7,7 +7,7 @@ import MovementForm from './components/MovementForm/MovementForm';
 import MovementList from './components/MovementList/MovementList';
 import StateContainer from './components/StateContainer/StateContainer';
 import { AppContext } from './contexts/App.Context';
-
+console.log("OTRO CAMBIO DE MATI")
 function App() {
   const {state} = useContext(AppContext)
   return (
