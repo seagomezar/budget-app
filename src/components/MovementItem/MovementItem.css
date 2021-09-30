@@ -1,25 +1,35 @@
 .MovementItem {
-  border-top: 1px solid grey;
-  margin-top: 20px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+	border-top: 1px solid grey;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .MovementItem img {
-  height: 50px;
-  width: 50px;
+	height: 50px;
+	width: 50px;
 }
 
 .MovementItem button {
-  background: transparent;
-  height: 10px;
-  border: 0;
-  color: white;
-  text-decoration: underline;
+	background: white;
+	height: auto;
+	border: 0;
+	border-radius: 20px;
+	color: #111;
+	cursor: pointer;
+	padding: 10px;
+	text-decoration: underline;
+	transition: all 0.3s ease;
+}
+
+.MovementItem button:hover {
+	background-color: tomato;
+	color: white;
+	transform: scale(1.21);
 }
